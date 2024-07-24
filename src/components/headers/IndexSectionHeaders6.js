@@ -241,7 +241,7 @@ export default function IndexSectionHeaders6() {
                 {" "}
                 <h1 className="font-heading text-5xl xs:text-6xl md:text-8xl xl:text-10xl font-bold text-gray-900 mb-8 sm:mb-14 removed">
                   {" "}
-                  <span contentEditable="true" className>
+                  <span className>
                     Inspire Students with Immersive STEM Learning&nbsp;
                   </span>{" "}
                 </h1>{" "}
