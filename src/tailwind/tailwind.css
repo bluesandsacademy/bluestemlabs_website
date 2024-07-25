@@ -3,3 +3,7 @@
 @tailwind components;
 
 @tailwind utilities;
+
+.test_border{
+    border:3px solid red;
+}

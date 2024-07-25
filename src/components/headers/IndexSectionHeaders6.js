@@ -21,7 +21,7 @@ export default function IndexSectionHeaders6() {
             src="saturn-assets/images/headers/robot-hand-header.png"
             alt
           />{" "}
-          <nav className="relative py-6 mb-12 md:mb-20 bg-transparent">
+          <nav className="relative py-6 md:mb-10 mb-5 bg-transparent">
             {" "}
             <div className="container px-4 mx-auto">
               {" "}
@@ -77,12 +77,12 @@ export default function IndexSectionHeaders6() {
                   <li className="group relative">
                     {" "}
                     <a
-                      className="inline-block text-sm text-gray-900 hover:text-orange-900 font-medium"
+                      className="inline-block text-sm text-gray-900 hover:text-[#1980E7] font-medium"
                       href="#"
                     >
                       Home
                     </a>{" "}
-                    <div className="hidden group-hover:block absolute top-full left-0 min-w-max max-w-xs p-4 z-30">
+                    {/* <div className="hidden group-hover:block absolute top-full left-0 min-w-max max-w-xs p-4 z-30">
                       {" "}
                       <div className="-mb-2 ml-8 w-4 h-4 rounded-sm bg-white border-l border-t border-gray-200 transform rotate-45" />{" "}
                       <div className="w-full max-w-xs bg-white border border-gray-100 rounded-3xl pt-4 pb-4 px-4">
@@ -93,13 +93,13 @@ export default function IndexSectionHeaders6() {
                             className="block py-3 px-4 text-sm text-gray-900 hover:bg-orange-50 rounded-lg"
                             href="#"
                           >
-                            Featured
+                            Virtual STEM Lab
                           </a>
                           <a
                             className="block py-3 px-4 text-sm text-gray-900 hover:bg-orange-50 rounded-lg"
                             href="#"
                           >
-                            Solutions
+                            Pricing
                           </a>{" "}
                         </div>{" "}
                         <div className="pb-3 mb-3 border-b border-gray-100">
@@ -141,13 +141,13 @@ export default function IndexSectionHeaders6() {
                         <div className="flex items-center pb-3 mb-3 border-b border-gray-100">
                           {" "}
                           <a
-                            className="inline-block px-4 py-3 mr-6 text-sm font-semibold text-orange-900 hover:text-gray-900"
+                            className="inline-block px-4 py-3 mr-6 text-sm font-semibold text-[#1980E7] hover:text-gray-900"
                             href="#"
                           >
                             Sign In
                           </a>
                           <a
-                            className="inline-block py-3 px-4 text-sm font-semibold text-orange-900 hover:text-white border border-gray-200 hover:border-orange-600 hover:bg-orange-900 rounded-md transition duration-200"
+                            className="inline-block py-3 px-4 text-sm font-semibold text-[#1980E7] hover:text-white border border-gray-200 hover:border-orange-600 hover:bg-[#1980E7] rounded-md transition duration-200"
                             href="#"
                           >
                             Virtual STEM Lab
@@ -168,7 +168,7 @@ export default function IndexSectionHeaders6() {
                               Drop us a line
                             </span>{" "}
                             <a
-                              className="text-sm font-semibold text-black hover:text-orange-900"
+                              className="text-sm font-semibold text-black hover:text-[#1980E7]"
                               href="#"
                             >
                               Pricing
@@ -176,11 +176,11 @@ export default function IndexSectionHeaders6() {
                           </div>{" "}
                         </div>{" "}
                       </div>{" "}
-                    </div>{" "}
+                    </div>{" "} */}
                   </li>{" "}
                   <li>
                     <a
-                      className="inline-block text-sm text-gray-900 hover:text-orange-900 font-medium"
+                      className="inline-block text-sm text-gray-900 hover:text-[#1980E7] font-medium"
                       href="#"
                     >
                       &nbsp;Virtual STEM Lab
@@ -188,16 +188,24 @@ export default function IndexSectionHeaders6() {
                   </li>{" "}
                   <li>
                     <a
-                      className="inline-block text-sm text-gray-900 hover:text-orange-900 font-medium"
+                      className="inline-block text-sm text-gray-900 hover:text-[#1980E7] font-medium"
                       href="#"
-                      contentEditable="false"
                     >
-                      Contact
+                      &nbsp;Features
                     </a>
                   </li>{" "}
                   <li>
                     <a
-                      className="inline-block text-sm text-gray-900 hover:text-orange-900 font-medium"
+                      className="inline-block text-sm text-gray-900 hover:text-[#1980E7] font-medium"
+                      href="#"
+                      contentEditable="false"
+                    >
+                      Pricing
+                    </a>
+                  </li>{" "}
+                  <li>
+                    <a
+                      className="inline-block text-sm text-gray-900 hover:text-[#1980E7] font-medium"
                       href="#"
                       contentEditable="false"
                     >
@@ -206,7 +214,7 @@ export default function IndexSectionHeaders6() {
                   </li>{" "}
                   <li>
                     <a
-                      className="inline-block text-sm text-gray-900 hover:text-orange-900 font-medium"
+                      className="inline-block text-sm text-gray-900 hover:text-[#1980E7] font-medium"
                       href="#"
                       contentEditable="false"
                     >
@@ -219,11 +227,11 @@ export default function IndexSectionHeaders6() {
                   <div className="flex items-center removed">
                     {" "}
                     <a
-                      className="relative group inline-block py-3 px-4 text-sm font-semibold text-orange-900 hover:text-white border border-gray-200 rounded-md overflow-hidden transition duration-300"
+                      className="relative group inline-block py-3 px-4 text-sm font-semibold text-[#1980E7] hover:text-white border border-gray-200 rounded-md overflow-hidden transition duration-300"
                       href="#"
                     >
                       {" "}
-                      <div className="absolute top-0 right-full w-full h-full bg-orange-900 transform group-hover:translate-x-full group-hover:scale-102 transition duration-500" />{" "}
+                      <div className="absolute top-0 right-full w-full h-full bg-[#1980E7] transform group-hover:translate-x-full group-hover:scale-102 transition duration-500" />{" "}
                       <span className="relative" contentEditable="true">
                         Sign Up
                       </span>{" "}
@@ -239,25 +247,43 @@ export default function IndexSectionHeaders6() {
               {" "}
               <div className="max-w-4xl mx-auto text-center">
                 {" "}
-                <h1 className="font-heading text-5xl xs:text-6xl md:text-8xl xl:text-10xl font-bold text-gray-900 mb-8 sm:mb-14 removed">
+                <h1 className="font-heading text-5xl xs:text-6xl md:text-8xl xl:text-10xl font-bold text-[#1980E7] drop-shadow-2xl shadow-[#1980E7] mb-8 sm:mb-14 removed">
                   {" "}
                   <span className>
-                    Inspire Students with Immersive STEM Learning&nbsp;
+                    Spark your child's curiosity with our Inclusive VR + AR
+                    Platform! &nbsp;
                   </span>{" "}
                 </h1>{" "}
-                <p className="text-gray-900 font-semibold mb-5">
-                  Blue Sands STEM Lab's immersive virtual labs engage students,
-                  reduce dropout rates, and promote equitable learning outcomes.
+                <p className="text-gray-900 text-3xl font-semibold mb-5">
+                  Virtual Science Labs, Engaging STEM Courses. Accessible
+                  Anywhere, Anytime!
                 </p>{" "}
               </div>{" "}
-              <div className="container mx-auto flex items-center justify-center mb-15">
+              <div className="container w-full flex items-center justify-center mb-15 gap-x-5">
                 <a
-                  className="relative group inline-block py-4 px-6 text-white font-semibold rounded-md bg-orange-900 overflow-hidden"
+                  className="relative group inline-block py-4 px-6 text-white font-semibold rounded-md bg-[#1980E7] overflow-hidden"
                   href="#"
                 >
                   {" "}
                   <div className="absolute top-0 right-full w-full h-full bg-gray-900 transform group-hover:translate-x-full group-hover:scale-102 transition duration-500" />{" "}
-                  <span className="relative">Get Started Now</span>
+                  <span className="relative">Get Pricing</span>
+                </a>
+                <a
+                  className="flex flex-row py-4 w-fit px-6 justify-center font-semibold rounded-md overflow-hidden items-center text-[#1980E7]"
+                  href="#"
+                >
+                  <span className="relative">Request a Demo </span>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="32"
+                    height="32"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      fill="currentColor"
+                      d="M16.15 13H5q-.425 0-.712-.288T4 12t.288-.712T5 11h11.15L13.3 8.15q-.3-.3-.288-.7t.288-.7q.3-.3.713-.312t.712.287L19.3 11.3q.15.15.213.325t.062.375t-.062.375t-.213.325l-4.575 4.575q-.3.3-.712.288t-.713-.313q-.275-.3-.288-.7t.288-.7z"
+                    />
+                  </svg>
                 </a>
               </div>{" "}
               <div className="md:flex mb-14 max-w-xs sm:max-w-sm md:max-w-none removed">
@@ -305,28 +331,28 @@ export default function IndexSectionHeaders6() {
                     src="saturn-assets/images/headers/bg-folder.svg"
                     alt
                   />{" "}
-                  <div className="relative flex flex-col">
+                  <div className="relative flex flex-col ">
                     {" "}
                     <div className="xs:w-100 max-w-xs pl-5 xs:pl-10 pt-10 pr-20 xs:pr-5 z-10">
                       {" "}
-                      <h3 className="text-xl font-semibold text-gray-900">
+                      <h3 className="text-xl font-semibold text-white">
                         We are building the future together
                       </h3>{" "}
                     </div>{" "}
-                    <div className="xs:w-100 max-w-md -mt-10 px-5 xs:px-10 pb-12 pt-18 bg-orange-50 rounded-b-3xl">
+                    <div className="xs:w-100 max-w-md -mt-10 px-5 xs:px-10 pb-12 pt-18 bg-[#1980E7]/20 rounded-b-3xl">
                       {" "}
                       <div className="flex items-center">
                         {" "}
                         <div>
                           {" "}
                           <span
-                            className="text-3xl xs:text-5xl font-semibold text-gray-900"
+                            className="text-3xl xs:text-5xl font-semibold text-white"
                             contentEditable="false"
                           >
                             150+
                           </span>{" "}
                           <span
-                            className="block text-sm text-gray-500"
+                            className="block text-sm text-white"
                             contentEditable="false"
                           >
                             STEM Simulations
@@ -336,13 +362,13 @@ export default function IndexSectionHeaders6() {
                         <div>
                           {" "}
                           <span
-                            className="text-3xl xs:text-5xl font-semibold text-gray-900"
+                            className="text-3xl xs:text-5xl font-semibold text-white"
                             contentEditable="false"
                           >
                             10k+
                           </span>{" "}
                           <span
-                            className="block text-sm text-gray-500"
+                            className="block text-sm text-white"
                             contentEditable="false"
                           >
                             Trained STEM Students
@@ -441,7 +467,7 @@ export default function IndexSectionHeaders6() {
                 <div className="py-8 px-6 mb-6 border-t border-b border-gray-200">
                   {" "}
                   <a
-                    className="flex items-center text-sm font-semibold text-orange-900 hover:text-orange-600"
+                    className="flex items-center text-sm font-semibold text-[#1980E7] hover:text-orange-600"
                     href="#"
                   >
                     {" "}
@@ -464,13 +490,13 @@ export default function IndexSectionHeaders6() {
                 <div className="flex px-6 mb-16 items-center">
                   {" "}
                   <a
-                    className="inline-block mr-9 text-sm font-semibold text-orange-900 hover:text-gray-900"
+                    className="inline-block mr-9 text-sm font-semibold text-[#1980E7] hover:text-gray-900"
                     href="#"
                   >
                     Sign In
                   </a>
                   <a
-                    className="inline-block py-3 px-4 text-sm font-semibold text-orange-900 hover:text-white border border-gray-300 hover:border-orange-600 hover:bg-orange-900 rounded-md transition duration-200"
+                    className="inline-block py-3 px-4 text-sm font-semibold text-[#1980E7] hover:text-white border border-gray-300 hover:border-orange-600 hover:bg-[#1980E7] rounded-md transition duration-200"
                     href="#"
                   >
                     Create an account
