@@ -32,7 +32,7 @@ export default function IndexSectionCallToAction9() {
                       experience for both teachers and students.
                     </p>
                     <a
-                      className="relative group inline-block py-4 px-6 text-white font-semibold bg-orange-900 rounded-md overflow-hidden"
+                      className="relative group inline-block py-4 px-6 text-white font-semibold bg-[#1980E7] rounded-md overflow-hidden"
                       href="#"
                     >
                       <div className="absolute top-0 right-full w-full h-full bg-gray-900 transform group-hover:translate-x-full group-hover:scale-102 transition duration-500" />
