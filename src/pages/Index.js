@@ -10,14 +10,6 @@ import IndexSectionStats11 from "../components/stats/IndexSectionStats11";
 import IndexSectionTeam10 from "../components/team/IndexSectionTeam10";
 import IndexSectionFooters7 from "../components/footers/IndexSectionFooters7";
 
-const meta = {
-  title: "",
-  meta: [],
-  link: [],
-  style: [],
-  script: [],
-};
-
 export default function Index() {
   return (
     <React.Fragment>
