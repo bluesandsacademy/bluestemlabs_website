@@ -1117,10 +1117,13 @@ video {
   background-color: rgb(25 128 231 / var(--tw-bg-opacity));
 }
 
+<<<<<<< HEAD
 .bg-\[\#1980E7\]\/20 {
   background-color: rgb(25 128 231 / 0.2);
 }
 
+=======
+>>>>>>> 7845fccce9cc358e0b197e2c6ba751714b3f8a01
 .bg-blue-300 {
   --tw-bg-opacity: 1;
   background-color: rgb(111 212 255 / var(--tw-bg-opacity));
