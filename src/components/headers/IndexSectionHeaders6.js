@@ -8,12 +8,12 @@ export default function IndexSectionHeaders6() {
       <>
         <section className="relative pb-20 overflow-hidden bs-section-dragged">
           <motion.img
-            className="absolute top-40 -left-32 rotate-45"
+            className="absolute top-40 -left-32"
             src="/saturn-assets/images/landing/headset.png"
             alt="Head Set"
-            initial={{ y: -500, rotate: 45 }}
-            animate={{ y: 0, rotate: 0 }}
-            transition={{ duration: 1.4 }}
+            initial={{ y: -500, rotate: 0 }}
+            animate={{ y: 0, rotate: -40 }}
+            transition={{ duration: 1.4, rotate: -40 }}
           />
           <motion.img
             className="absolute top-28 right-10 w-auto h-[450px]"
