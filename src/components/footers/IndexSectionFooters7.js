@@ -52,7 +52,7 @@ export default function IndexSectionFooters7() {
                     </span>
                   </div>
                   <div className="">
-                    <p className="text-[#1980E7] text-xl font-bold">SOCIAL MEDIA</p>
+                    <p className="text-[#1980E7] text-xl font-bold uppercase">Follow Us</p>
                     <span className="inline-flex items-center justify-center text-orange-50">
                       {socialMedia.map((media, index) => {
                         return (

@@ -46,7 +46,7 @@ export default function IndexSectionHeaders6() {
                 </a>
                 <a
                   className="flex flex-row py-4 w-fit px-6 justify-center font-semibold rounded-md overflow-hidden items-center text-[#1980E7]"
-                  href="#"
+                  href="/request-demo"
                 >
                   <span className="relative">Request a Demo </span>
                   <svg
@@ -61,84 +61,6 @@ export default function IndexSectionHeaders6() {
                     />
                   </svg>
                 </a>
-              </div>
-              <div className="md:flex mb-14 max-w-xs sm:max-w-sm md:max-w-none removed"></div>
-              <div className="lg:flex">
-                <div className="max-w-2xl mb-20 lg:mb-0 lg:mr-32">
-                  <span className="block mb-6 text-sm font-semibold text-gray-500">
-                    Partner &amp; Awards
-                  </span>
-                  <div className="flex items-center -mx-4">
-                    <div className="w-1/3 px-4">
-                      <img
-                        className="block"
-                        src="saturn-assets/logos/brands/logo-example3.png"
-                        alt
-                      />
-                    </div>
-                    <div className="w-1/3 px-4">
-                      <img
-                        className="block"
-                        src="saturn-assets/logos/brands/logo-example2.png"
-                        alt
-                      />
-                    </div>
-                    <div className="w-1/3 px-4">
-                      <img
-                        className="block"
-                        src="saturn-assets/logos/brands/logo-example1.png"
-                        alt
-                      />
-                    </div>
-                  </div>
-                </div>
-                <div className="relative lg:-mt-20 w-full max-w-md">
-                  <img
-                    className="absolute top-0 left-0 w-full"
-                    src="saturn-assets/images/headers/bg-folder.svg"
-                    alt
-                  />
-                  <div className="relative flex flex-col ">
-                    <div className="xs:w-100 max-w-xs pl-5 xs:pl-10 pt-10 pr-20 xs:pr-5 z-10">
-                      <h3 className="text-xl font-semibold text-white">
-                        We are building the future together
-                      </h3>
-                    </div>
-                    <div className="xs:w-100 max-w-md -mt-10 px-5 xs:px-10 pb-12 pt-18 bg-[#1980E7]/20 rounded-b-3xl">
-                      <div className="flex items-center">
-                        <div>
-                          <span
-                            className="text-3xl xs:text-5xl font-semibold text-white"
-                            contentEditable="false"
-                          >
-                            150+
-                          </span>
-                          <span
-                            className="block text-sm text-white"
-                            contentEditable="false"
-                          >
-                            STEM Simulations
-                          </span>
-                        </div>
-                        <div className="h-12 w-px mx-auto bg-orange-200" />
-                        <div>
-                          <span
-                            className="text-3xl xs:text-5xl font-semibold text-white"
-                            contentEditable="false"
-                          >
-                            10k+
-                          </span>
-                          <span
-                            className="block text-sm text-white"
-                            contentEditable="false"
-                          >
-                            Trained STEM Students
-                          </span>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
               </div>
             </div>
           </div>
