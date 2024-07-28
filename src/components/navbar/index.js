@@ -5,7 +5,7 @@ export default function Navbar() {
     <nav className="relative py-6 mb-2 bg-transparent">
       <div className="container px-4 mx-auto">
         <div className="flex items-center">
-          <a className="inline-block text-lg font-bold" href="#">
+          <a className="inline-block text-lg font-bold" href="/">
             <img
               src="saturn-assets/logos/logo.webp"
               alt
@@ -197,14 +197,13 @@ export default function Navbar() {
           </ul>
           <div className="hidden lg:block ml-auto">
             <div className="flex items-center removed">
-              <button
+              <a
                 className="relative group inline-block py-3 px-4 text-sm font-semibold text-[#1980E7] hover:text-white border border-gray-200 rounded-md overflow-hidden transition duration-300"
-                onClick={() => toast("Testing Testing...")}
-                // href="/signup"
+                href="#"
               >
                 <div className="absolute top-0 right-full w-full h-full bg-[#1980E7] transform group-hover:translate-x-full group-hover:scale-102 transition duration-500" />
                 <span className="relative">Sign Up</span>
-              </button>
+              </a>
             </div>
           </div>
         </div>

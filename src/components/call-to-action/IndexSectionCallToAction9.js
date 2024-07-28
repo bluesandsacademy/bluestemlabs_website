@@ -33,7 +33,7 @@ export default function IndexSectionCallToAction9() {
                     </p>
                     <a
                       className="relative group inline-block py-4 px-6 text-white font-semibold bg-[#1980E7] rounded-md overflow-hidden"
-                      href="#"
+                      href="/request-demo"
                     >
                       <div className="absolute top-0 right-full w-full h-full bg-gray-900 transform group-hover:translate-x-full group-hover:scale-102 transition duration-500" />
                       <div className="relative flex items-center justify-center">
