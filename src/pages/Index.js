@@ -9,7 +9,6 @@ import IndexSectionInstagramPhotos12 from "../components/instagram-photos/IndexS
 import IndexSectionStats11 from "../components/stats/IndexSectionStats11";
 import IndexSectionTeam10 from "../components/team/IndexSectionTeam10";
 import IndexSectionFooters7 from "../components/footers/IndexSectionFooters7";
-import { ToastContainer } from "react-toastify";
 
 
 export default function Index() {

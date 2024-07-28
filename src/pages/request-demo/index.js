@@ -1,6 +1,6 @@
 import React from "react";
 import { Helmet, HelmetProvider } from "react-helmet-async";
-import Navbar from "../../components/navbar";
+import ScheduleDemoForm from "../../components/request-demo";
 
 export default function RequestDemo() {
   return (
@@ -51,6 +51,16 @@ export default function RequestDemo() {
           </title>
         </Helmet>
       </HelmetProvider>
+      <>
+        <div className="flex items-center justify-between space-x-3 my-3">
+          <div className="4/12">
+
+          </div>
+          <div className="w-7/12">
+            <ScheduleDemoForm />
+          </div>
+        </div>
+      </>
     </React.Fragment>
   );
 }
