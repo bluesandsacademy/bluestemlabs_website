@@ -20,7 +20,7 @@ export default function IndexSectionHeaders6() {
             src="saturn-assets/images/headers/robot-hand-header.png"
             alt
           />
-          <nav className="relative py-6 md:mb-10 mb-5 bg-transparent">
+          <nav className="relative py-6 mb-2 bg-transparent">
             <div className="container px-4 mx-auto">
               <div className="flex items-center">
                 <a className="inline-block text-lg font-bold" href="#">
@@ -219,8 +219,8 @@ export default function IndexSectionHeaders6() {
                       href="#"
                     >
                       <div className="absolute top-0 right-full w-full h-full bg-[#1980E7] transform group-hover:translate-x-full group-hover:scale-102 transition duration-500" />
-                      <span className="relative" contentEditable="true">
-                        Sign Up
+                      <span className="relative">
+                        Request a Demo
                       </span>
                     </a>
                   </div>
