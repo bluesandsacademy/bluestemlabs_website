@@ -5,10 +5,11 @@ export default function Navbar() {
         <div className="flex items-center">
           <a className="inline-block text-lg font-bold" href="#">
             <img
-              className="invisible"
-              src="saturn-assets/logos/logo-saturn-dark.svg"
+              src="saturn-assets/logos/logo.webp"
               alt
               width="auto"
+              height="10px"
+              className="w-auto h-[30px]"
             />
           </a>
           <div className="lg:hidden ml-auto">
@@ -48,7 +49,7 @@ export default function Navbar() {
             <li className="group relative">
               <a
                 className="inline-block text-sm text-gray-900 hover:text-[#1980E7] font-medium"
-                href="#"
+                href="/"
               >
                 Home
               </a>
