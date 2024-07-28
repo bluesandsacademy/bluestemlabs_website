@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+    "axios": "^1.7.2",
     "framer-motion": "^11.3.19",
     "react": "^18.2.0",
     "react-apexcharts": "^1.4.0",

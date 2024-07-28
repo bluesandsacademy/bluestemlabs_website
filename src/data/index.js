@@ -9,7 +9,7 @@ export const team = [
   {
     fullName: "Sandra Akhigbe",
     role: "Co-Founder/Product Lead",
-    bio: "Product Designer at Blue Sands Academy ​with 5+ years of experience in girl child ​education. Passionate about empowering ​girls in STEM through user-friendly ​educational solutions to make learning ​tools engaging and effective.",
+    bio: "Product Designer at Blue Sands Academy ​wiwwwwth 5+ years of experience in girl child ​education. Passionate about empowering ​girls in STEM through user-friendly ​educational solutions to make learning ​tools engaging and effective.",
     imgSrc:
       "https://static.shuffle.dev/uploads/files/69/6978f95e8afa70d57782910ca264e7c3e432c077/a6937db357f95a41dd420dd5e97a691e.png",
   },

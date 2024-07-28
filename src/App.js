@@ -6,15 +6,17 @@ import StemLabPage from "./pages/Stem_lab.js";
 import SignUp from "./pages/signup/index.js";
 import RequestDemo from "./pages/request-demo/index.js";
 import { ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 function App() {
   return (
     <>
-      <ToastContainer autoClose="true" />
+      <ToastContainer closeOnClick={true} />
       <Routes>
         <Route path="/" element={<IndexPage />} />
         <Route path="/signup" element={<SignUp />} />
         <Route path="/request-demo" element={<RequestDemo />} />
+        <Route path="/thank-you/success" element={<RequestDemo />} />
       </Routes>
     </>
   );
