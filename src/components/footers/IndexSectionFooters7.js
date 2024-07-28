@@ -16,8 +16,8 @@ export default function IndexSectionFooters7() {
               <h1 className="font-heading text-4xl xs:text-5xl md:text-6xl font-semibold text-white mb-20 removed">
                 <span>Connect with us</span>
               </h1>
-              <div className="sm:flex items-start justify-center">
-                <div className="flex flex-col gap-y-3 mb-6 sm:mb-0 sm:mr-12 items-center justify-start">
+              <div className="flex items-start justify-center">
+                <div className="flex flex-col gap-y-3 items-start justify-start">
                   <div className="">
                     <p className="text-[#1980E7] text-xl font-bold">EDO STATE</p>
                     <span className="block text-orange-50">
@@ -57,7 +57,7 @@ export default function IndexSectionFooters7() {
                       {socialMedia.map((media, index) => {
                         return (
                           <a href={media.link} key={index}>
-                            <media.icon className="stroke-[#1980E7]" />
+                            <media.icon />
                           </a>
                         );
                       })}
