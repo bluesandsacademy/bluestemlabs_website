@@ -1,5 +1,8 @@
 import React, { useState } from "react";
 import { countries } from "../../data";
+import { Puff } from "react-loader-spinner";
+import axios from "axios";
+import { toast } from "react-toastify";
 
 const ScheduleDemoForm = () => {
   const [formData, setFormData] = useState({
@@ -25,14 +28,18 @@ const ScheduleDemoForm = () => {
   };
 
   const handleSubmit = async (e) => {
-    const baseUrl = `http://localhost:4000`;
+    const baseUrl = `https://email-delivery-api.onrender.com/request-demo`;
     setLoading(true);
     e.preventDefault();
 
     try {
-      toast("Successfull");
+      toast("Successfully Processed Demo Request");
 
-      window.location.href = "/thank-you/success";
+      axios.post(baseUrl, formData);
+
+      setTimeout(() => {
+        window.location.href = "/thank-you/success";
+      }, 3000);
     } catch (error) {
       toast.error(
         "There was a problem scheduling your demo appointment, please try again later"
@@ -226,7 +233,11 @@ const ScheduleDemoForm = () => {
             type="submit"
           >
             <div className="absolute top-0 right-full w-full h-full bg-[#1980E7] transform group-hover:translate-x-full group-hover:scale-102 transition duration-500" />
-            <span className="relative">Schedule Demo</span>
+            {!loading ? (
+              <span className="relative">Schedule Demo</span>
+            ) : (
+              <Puff color="#1980E7" width={30} height={30} />
+            )}
           </button>
         </div>
       </div>

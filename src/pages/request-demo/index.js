@@ -2,6 +2,8 @@ import React from "react";
 import { Helmet, HelmetProvider } from "react-helmet-async";
 import ScheduleDemoForm from "../../components/request-demo";
 import Navbar from "../../components/navbar";
+import FAQAccordion from "../../components/faq";
+import IndexSectionFooters7 from "../../components/footers/IndexSectionFooters7";
 
 export default function RequestDemo() {
   const steps = [
@@ -155,6 +157,8 @@ export default function RequestDemo() {
             <ScheduleDemoForm />
           </div>
         </div>
+        <FAQAccordion />
+        <IndexSectionFooters7 />
       </>
     </React.Fragment>
   );
