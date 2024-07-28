@@ -20,7 +20,7 @@ export default function IndexSectionFeatures13() {
               <div className="flex flex-wrap -mx-4">
                 <div className="w-full lg:w-1/2 px-4 mb-14 lg:mb-0">
                   <div className="max-w-md lg:max-w-lg mx-auto lg:mx-0">
-                    <h1 className="font-heading text-5xl xs:text-6xl font-bold text-gray-900 mb-6">
+                    <h1 className="font-heading text-5xl xs:text-6xl font-bold text-gray-900 mb-6 space-x-2">
                       <span>Why</span>
                       <span className="font-serif italic text-[#1980E7]">
                         Blue Sands
@@ -121,7 +121,7 @@ export default function IndexSectionFeatures13() {
                   <div className="relative max-w-md lg:max-w-sm mx-auto lg:mr-0">
                     <img
                       className="w-full rounded-lg shadow-2xl"
-                      src="https://images.unsplash.com/photo-1595311182166-d63273ddc386?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMzIzMzB8MHwxfHNlYXJjaHwxMXx8c2NpZW5jZSUyMGxhYnxlbnwwfHx8fDE3MjE3OTQwMjh8MA&ixlib=rb-4.0.3&q=85&w=1920"
+                      src="/saturn-assets/images/why-us/why.jpg"
                       alt
                     />
                     <div className="absolute bottom-0 left-0 p-4" />

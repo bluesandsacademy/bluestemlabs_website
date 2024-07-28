@@ -8,7 +8,7 @@ export default function IndexSectionHeaders6() {
       <>
         <section className="relative pb-20 overflow-hidden bs-section-dragged">
           <motion.img
-            className="absolute top-40 -left-32"
+            className="absolute w-auto sm:h-[450px] top-40 sm:-left-32 left-10 h-[100px] sm:block hidden"
             src="/saturn-assets/images/landing/headset.png"
             alt="Head Set"
             initial={{ y: -500, rotate: 0 }}
@@ -16,7 +16,7 @@ export default function IndexSectionHeaders6() {
             transition={{ duration: 1.4, rotate: -40 }}
           />
           <motion.img
-            className="absolute top-28 right-10 w-auto h-[450px]"
+            className="absolute sm:top-28 right-10 w-auto sm:h-[450px] h-[100px] top-[20rem] sm:block hidden"
             src="/saturn-assets/images/landing/microscope.svg"
             alt="Microscope"
             initial={{ y: -500, rotate: -45 }}
