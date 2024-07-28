@@ -5,6 +5,7 @@ import IndexPage from "./pages/Index.js";
 import StemLabPage from "./pages/Stem_lab.js";
 import SignUp from "./pages/signup/index.js";
 import RequestDemo from "./pages/request-demo/index.js";
+import SuccessPage from "./pages/thank-you/success.js";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
@@ -16,7 +17,7 @@ function App() {
         <Route path="/" element={<IndexPage />} />
         <Route path="/signup" element={<SignUp />} />
         <Route path="/request-demo" element={<RequestDemo />} />
-        <Route path="/thank-you/success" element={<RequestDemo />} />
+        <Route path="/thankyou/success" element={<SuccessPage />} />
       </Routes>
     </>
   );

@@ -38,7 +38,7 @@ const ScheduleDemoForm = () => {
       axios.post(baseUrl, formData);
 
       setTimeout(() => {
-        window.location.href = "/thank-you/success";
+        window.location.href = "/thankyou/success";
       }, 3000);
     } catch (error) {
       toast.error(
