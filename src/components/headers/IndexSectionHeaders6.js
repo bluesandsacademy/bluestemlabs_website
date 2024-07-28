@@ -12,11 +12,10 @@ export default function IndexSectionHeaders6() {
             src="/saturn-assets/images/landing/headset.png"
             alt="Head Set"
             initial={{ y: -500, rotate: 0 }}
-            animate={{ y: [0, -18, 0], rotate: -40 }}
+            animate={{ y: 0, rotate: -40 }}
             transition={{
               duration: 1.4,
-              rotate: -40,
-              y: { duration: 1.8, repeat: Infinity, repeatType: "reverse" },
+              // y: { duration: 1.8, repeat: Infinity, repeatType: "reverse" },
             }}
           />
           <motion.img
@@ -24,10 +23,10 @@ export default function IndexSectionHeaders6() {
             src="/saturn-assets/images/landing/microscope.svg"
             alt="Microscope"
             initial={{ y: -500, rotate: -45 }}
-            animate={{ y: [0, -18, 0], rotate: 0 }}
+            animate={{ y: 0, rotate: 0 }}
             transition={{
               duration: 1.4,
-              y: { duration: 1.8, repeat: Infinity, repeatType: "reverse" },
+              // y: { duration: 1.8, repeat: Infinity, repeatType: "reverse" },
             }}
           />
 

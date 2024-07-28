@@ -1,3 +1,5 @@
+import { toast } from "react-toastify";
+
 export default function Navbar() {
   return (
     <nav className="relative py-6 mb-2 bg-transparent">
@@ -195,13 +197,14 @@ export default function Navbar() {
           </ul>
           <div className="hidden lg:block ml-auto">
             <div className="flex items-center removed">
-              <a
+              <button
                 className="relative group inline-block py-3 px-4 text-sm font-semibold text-[#1980E7] hover:text-white border border-gray-200 rounded-md overflow-hidden transition duration-300"
-                href="/signup"
+                onClick={() => toast("Testing Testing...")}
+                // href="/signup"
               >
                 <div className="absolute top-0 right-full w-full h-full bg-[#1980E7] transform group-hover:translate-x-full group-hover:scale-102 transition duration-500" />
                 <span className="relative">Sign Up</span>
-              </a>
+              </button>
             </div>
           </div>
         </div>

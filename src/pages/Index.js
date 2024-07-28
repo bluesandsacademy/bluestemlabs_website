@@ -1,5 +1,5 @@
 // Author: Adefeyitimi Adeyeloja
-import React from "react";
+import React, { useState } from "react";
 import { Helmet, HelmetProvider } from "react-helmet-async";
 import IndexSectionHeaders6 from "../components/headers/IndexSectionHeaders6";
 import IndexSectionCallToAction9 from "../components/call-to-action/IndexSectionCallToAction9";
@@ -9,6 +9,8 @@ import IndexSectionInstagramPhotos12 from "../components/instagram-photos/IndexS
 import IndexSectionStats11 from "../components/stats/IndexSectionStats11";
 import IndexSectionTeam10 from "../components/team/IndexSectionTeam10";
 import IndexSectionFooters7 from "../components/footers/IndexSectionFooters7";
+import { ToastContainer } from "react-toastify";
+
 
 export default function Index() {
   return (
