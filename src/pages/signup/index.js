@@ -1,4 +1,5 @@
 import React from 'react'
+import Navbar from '../../components/navbar'
 
 
 export default function SignUp(){
@@ -49,9 +50,10 @@ export default function SignUp(){
             </title>
           </Helmet>
         </HelmetProvider>
-        <div>
+        <>
+         <Navbar />
             
-        </div>
+        </>
       </React.Fragment>
     );
 }
