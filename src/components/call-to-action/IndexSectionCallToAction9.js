@@ -18,7 +18,7 @@ export default function IndexSectionCallToAction9() {
                   <div className="xs:max-w-xs sm:max-w-lg lg:max-w-xl">
                     <h1 className="font-heading text-5xl sm:text-6xl font-bold text-gray-900 mb-4">
                       <span>Discover the Power of Blue Sands&nbsp;</span>
-                      <span className="font-serif italic">STEM Labs</span>
+                      <span className="font-serif italic text-[#1980E7]">STEM Labs</span>
                     </h1>
                     <p className="text-2xl font-semibold text-gray-900 mb-4">
                       Transforming STEM education with cutting-edge virtual

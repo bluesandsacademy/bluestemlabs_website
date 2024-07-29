@@ -9,6 +9,9 @@ import IndexSectionInstagramPhotos12 from "../components/instagram-photos/IndexS
 import IndexSectionStats11 from "../components/stats/IndexSectionStats11";
 import IndexSectionTeam10 from "../components/team/IndexSectionTeam10";
 import IndexSectionFooters7 from "../components/footers/IndexSectionFooters7";
+import NewsletterModal from "../components/newsletter";
+import ForSchool from "../components/for-school";
+import VRSolution from "../components/for-school/vr-solution";
 
 
 export default function Index() {
@@ -59,10 +62,13 @@ export default function Index() {
           </title>
         </Helmet>
       </HelmetProvider>
+      <NewsletterModal />
       <IndexSectionHeaders6 />
       <IndexSectionCallToAction9 />
       <IndexSectionFeatures8 />
+      <ForSchool />
       <IndexSectionFeatures13 />
+      <VRSolution />
       <IndexSectionInstagramPhotos12 />
       <IndexSectionStats11 />
       <IndexSectionTeam10 />
