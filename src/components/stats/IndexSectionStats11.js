@@ -4,13 +4,9 @@ export default function IndexSectionStats11() {
   return (
     <React.Fragment>
       <>
-        <section className="relative py-20 md:py-32 bg-gray-800 overflow-hidden">
-          <img
-            className="absolute top-0 right-0 md:mt-10 -mr-20 md:-mr-0"
-            src="saturn-assets/images/stats/star-dark.svg"
-            alt
-          />
-          <div className="relative container px-4 mx-auto">
+        <section className="relative py-20 md:py-32 bg-[url('/saturn-assets/images/lab/lab.jpg')] overflow-hidden">
+          <div className="bg-blue-950 bg-opacity-60 inset-0 absolute"></div>
+          <div className="relative container px-4 mx-auto z-20">
             <div className="max-w-5xl mx-auto">
               <div className="flex flex-col justify-center items-center gap-y-5">
                 <div className="w-full text-center">

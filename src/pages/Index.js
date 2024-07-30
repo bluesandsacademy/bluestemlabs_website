@@ -70,9 +70,9 @@ export default function Index() {
       <ForSchool />
       <IndexSectionFeatures13 />
       <VRSolution />
-      <PricingSection />
-      <IndexSectionInstagramPhotos12 />
       <IndexSectionStats11 />
+      <PricingSection />
+      {/* <IndexSectionInstagramPhotos12 /> */}
       <IndexSectionTeam10 />
       <IndexSectionFooters7 />
     </React.Fragment>

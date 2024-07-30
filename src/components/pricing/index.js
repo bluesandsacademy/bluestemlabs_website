@@ -76,7 +76,7 @@ const PricingSection = () => {
           <h2 className="text-2xl font-semibold text-[#1980E7] mb-4 text-center">
             Receive a Quote
           </h2>
-          <div className="max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-6">
+          <div className="max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-6 text-center">
             <div className="bg-white p-6 rounded-lg shadow-lg">
               <h3 className="text-xl font-bold text-[#1980E7] mb-2">
                 Access customized pricing

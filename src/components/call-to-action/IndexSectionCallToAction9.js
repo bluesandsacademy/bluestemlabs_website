@@ -7,11 +7,6 @@ export default function IndexSectionCallToAction9() {
         <section className="relative py-20 md:py-36 lg:py-44 overflow-hidden">
           <div className="hidden xs:block absolute top-0 right-0 h-full w-28 sm:w-36 md:w-1/4 bg-gray-900" />
           <div className="relative container px-4 mx-auto">
-            <img
-              className="absolute bottom-0 left-0 w-2/3"
-              src="saturn-assets/images/cta/double-light-center.png"
-              alt
-            />
             <div className="relative max-w-7xl mx-auto">
               <div className="flex flex-wrap -mx-4">
                 <div className="w-full lg:w-2/3 xl:w-1/2 px-4 mb-16 lg:mb-0">

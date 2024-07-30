@@ -5,16 +5,6 @@ export default function IndexSectionFeatures13() {
     <React.Fragment>
       <>
         <section className="relative py-20 lg:py-32 overflow-hidden ">
-          <img
-            className="absolute left-0 top-0"
-            src="saturn-assets/images/features/star-left.png"
-            alt
-          />
-          <img
-            className="absolute right-0 bottom-0"
-            src="saturn-assets/images/features/light-orange.png"
-            alt
-          />
           <div className="relative container px-4 mx-auto">
             <div className="max-w-5xl mx-auto">
               <div className="flex flex-wrap -mx-4">

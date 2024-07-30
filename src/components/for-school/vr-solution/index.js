@@ -5,7 +5,7 @@ const VRSolution = () => {
     <div className="bg-gray-50 text-gray-800 p-4">
       {/* Hero Section */}
       <section className="bg-[url('/saturn-assets/images/lab/lab_class_2.jpg')] h-[350px] text-white text-center relative flex flex-col items-center justify-center py-16 px-4 rounded-lg shadow-lg">
-        <div className="bg-[#1980E7] bg-opacity-40 absolute inset-0 rounded-lg"></div>
+        <div className="bg-blue-950 bg-opacity-60 absolute inset-0 rounded-lg"></div>
         <h1 className="text-4xl font-bold mb-4 z-10 drop-shadow-2xl">
           Looking for a VR Solution?
         </h1>
@@ -73,6 +73,65 @@ const VRSolution = () => {
         >
           Book a Free Demo
         </a>
+      </section>
+
+      {/* Labs Section */}
+      <section className="py-12 px-4">
+        <div className="max-w-6xl mx-auto">
+          <h2 className="text-3xl font-bold text-[#1980E7] mb-6 text-center">
+            Instant Access to 150+ Science Lab Simulations & Counting
+          </h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+            {/* Biology Online Labs */}
+            <div className="bg-white p-6 rounded-lg shadow-lg">
+              <h3 className="text-2xl font-semibold text-[#1980E7] mb-4">
+                Biology Online Labs
+              </h3>
+              <ul className="list-disc list-inside space-y-2">
+                <li>Molecular Biology</li>
+                <li>Genetics</li>
+                <li>Microbiology</li>
+                <li>Cell Culture</li>
+                <li>Microscopy</li>
+                <li>Bioenergetics</li>
+                <li>Immunology</li>
+                <li>Biochemistry</li>
+                <li>Forensics</li>
+                <li>Proteomics</li>
+                <li>Toxicology</li>
+                <li>Pharmacology</li>
+              </ul>
+            </div>
+
+            {/* Physics Online Labs */}
+            <div className="bg-white p-6 rounded-lg shadow-lg">
+              <h3 className="text-2xl font-semibold text-[#1980E7] mb-4">
+                Physics Online Labs
+              </h3>
+              <ul className="list-disc list-inside space-y-2">
+                <li>Heat and Thermodynamics</li>
+                <li>Properties of Matter</li>
+                <li>Electricity</li>
+                <li>Magnetism</li>
+                <li>Modern Physics</li>
+                <li>Mechanics</li>
+                <li>Waves</li>
+              </ul>
+            </div>
+
+            {/* Chemistry Online Labs */}
+            <div className="bg-white p-6 rounded-lg shadow-lg">
+              <h3 className="text-2xl font-semibold text-[#1980E7] mb-4">
+                Chemistry Online Labs
+              </h3>
+              <ul className="list-disc list-inside space-y-2">
+                <li>Inorganic Chemistry</li>
+                <li>Analytical Chemistry</li>
+                <li>Organic Chemistry</li>
+              </ul>
+            </div>
+          </div>
+        </div>
       </section>
     </div>
   );
