@@ -105,18 +105,17 @@ const PricingSection = () => {
             Designed by real scientists to align with gateway courses and
             teaching goals.
           </p>
+          {/* Get Pricing Button */}
+          <div className="text-center py-8">
+            <a
+              href="/get-pricing"
+              className="bg-[#1980E7] text-white py-3 px-6 rounded-lg text-lg font-semibold shadow-lg hover:bg-blue-700 transition-colors"
+            >
+              Get Pricing
+            </a>
+          </div>
         </div>
       </section>
-
-      {/* Get Pricing Button */}
-      <div className="text-center py-8">
-        <a
-          href="/get-pricing"
-          className="bg-[#1980E7] text-white py-3 px-6 rounded-lg text-lg font-semibold shadow-lg hover:bg-blue-700 transition-colors"
-        >
-          Get Pricing
-        </a>
-      </div>
     </div>
   );
 };
