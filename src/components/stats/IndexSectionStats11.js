@@ -4,7 +4,7 @@ export default function IndexSectionStats11() {
   return (
     <React.Fragment>
       <>
-        <section className="relative py-20 md:py-32 bg-[url('/saturn-assets/images/lab/lab.jpg')] overflow-hidden">
+        <section className="relative py-20 md:py-32 bg-[url('/saturn-assets/images/lab/lab.jpg')] bg-no-repeat bg-cover overflow-hidden">
           <div className="bg-blue-950 bg-opacity-60 inset-0 absolute"></div>
           <div className="relative container px-4 mx-auto z-20">
             <div className="max-w-5xl mx-auto">
