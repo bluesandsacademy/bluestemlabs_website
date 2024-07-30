@@ -4,9 +4,12 @@ const VRSolution = () => {
   return (
     <div className="bg-gray-50 text-gray-800 p-4">
       {/* Hero Section */}
-      <section className="bg-[#1980E7] text-white text-center py-16 px-4 rounded-lg shadow-lg">
-        <h1 className="text-3xl font-bold mb-4">Looking for a VR Solution?</h1>
-        <p className="text-lg max-w-3xl mx-auto">
+      <section className="bg-[url('/saturn-assets/images/lab/lab_class_2.jpg')] h-[350px] text-white text-center relative flex flex-col items-center justify-center py-16 px-4 rounded-lg shadow-lg">
+        <div className="bg-[#1980E7] bg-opacity-40 absolute inset-0 rounded-lg"></div>
+        <h1 className="text-4xl font-bold mb-4 z-10 drop-shadow-2xl">
+          Looking for a VR Solution?
+        </h1>
+        <p className="text-xl max-w-3xl mx-auto z-10 drop-shadow-2xl">
           Discover how our Blue Sands STEM Lab can transform education with
           virtual reality. Request a free demo today!
         </p>

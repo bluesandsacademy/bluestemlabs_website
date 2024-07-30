@@ -1,25 +1,61 @@
 import React, { useEffect, useState } from "react";
 import { Puff } from "react-loader-spinner";
+import axios from "axios";
+import { toast } from "react-toastify";
 
 const NewsletterModal = () => {
   const [isOpen, setIsOpen] = useState(false);
-  const [loading, setLoading] = useState(true);
+  const [loading, setLoading] = useState(false);
+  const [emailAddress, setEmailAddress] = useState("");
+  const [alreadySubscribed, setAlreadySubscribed] = useState(false);
 
   const toggleModal = () => {
     setIsOpen(!isOpen);
   };
 
-
   useEffect(() => {
-    window.localStorage.setItem("bluesands_newsletter_viewed", 23232)
+    const statusCheck = window.localStorage.getItem(
+      "bluesands_newsletter_viewed"
+    );
 
-    const status = window.localStorage.getItem("bluesands_newsletter_viewed")
+    if (!statusCheck) {
+      window.localStorage.setItem(
+        "bluesands_newsletter_viewed",
+        JSON.stringify({ status: "new_contact" })
+      );
+    }
 
-    console.info(typeof status)
-  },[])
+    if (statusCheck) {
+      const status = JSON.parse(statusCheck);
+      if (status.status === "new_contact") {
+        setIsOpen(true);
+      }
+      if (status.status === "viewed") {
+        setIsOpen(false);
+      }
+    }
+  }, []);
 
+  async function handleSubscribe(e) {
+    setLoading(true);
+    e.preventDefault();
+    const endpoint = `https://email-delivery-api.onrender.com/newsletter`;
+    try {
+      await axios.post(endpoint, { emailAddress });
+      window.localStorage.setItem(
+        "bluesands_newsletter_viewed",
+        JSON.stringify({ status: "viewed" })
+      );
 
-
+      toast("Successfully Subscribed");
+      setIsOpen(false);
+    } catch (error) {
+      console.error(error);
+      toast("Subscription Failed... Please Try Again Later");
+    } finally {
+      setLoading(false);
+    }
+  }
 
   return (
     <>
@@ -57,7 +93,7 @@ const NewsletterModal = () => {
               teaching experience.
             </p>
 
-            <form className="space-y-4">
+            <form className="space-y-4" onSubmit={handleSubscribe}>
               <div>
                 <label
                   htmlFor="email"
@@ -69,6 +105,8 @@ const NewsletterModal = () => {
                   type="email"
                   id="email"
                   name="email"
+                  value={emailAddress}
+                  onChange={(e) => setEmailAddress(e.target.value)}
                   required
                   className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-[#1980E7] focus:border-[#1980E7] sm:text-sm"
                 />

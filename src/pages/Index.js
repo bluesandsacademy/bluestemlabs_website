@@ -12,6 +12,7 @@ import IndexSectionFooters7 from "../components/footers/IndexSectionFooters7";
 import NewsletterModal from "../components/newsletter";
 import ForSchool from "../components/for-school";
 import VRSolution from "../components/for-school/vr-solution";
+import PricingSection from "../components/pricing";
 
 
 export default function Index() {
@@ -69,6 +70,7 @@ export default function Index() {
       <ForSchool />
       <IndexSectionFeatures13 />
       <VRSolution />
+      <PricingSection />
       <IndexSectionInstagramPhotos12 />
       <IndexSectionStats11 />
       <IndexSectionTeam10 />
