@@ -192,7 +192,7 @@ export default function Navbar() {
             <li>
               <a
                 className="inline-block text-sm text-gray-900 hover:text-[#1980E7] font-medium"
-                href="/#contact"
+                href="/contact-us"
               >
                 Contact
               </a>
