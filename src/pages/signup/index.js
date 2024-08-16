@@ -2,11 +2,11 @@ import React, { useState } from "react";
 import { Helmet, HelmetProvider } from "react-helmet-async";
 import Navbar from "../../components/navbar";
 import axios from "axios";
-import { countries, howYouHeardAboutUsList } from "../../data";
+import { countries, howYouHeardAboutUsList, nigerianStates } from "../../data";
 import { toast } from "react-toastify";
 import { Puff } from "react-loader-spinner";
 
-const userTypes = ["Parent", "School"];
+const userTypes = ["Individual", "School"];
 const workPosition = [
   "Professor/Instructor",
   "Head/Chair of Department",
@@ -43,6 +43,7 @@ export default function SignUp() {
     institutionCompanyName: "",
     faculty: "",
     country: "",
+    state: "",
     howCanCompanyHelpYou: "",
     howDidYouHearAboutUs: "",
     userRole: userTypes[0],
@@ -248,6 +249,34 @@ export default function SignUp() {
                           })}
                         </select>
                       </div>
+                      {formData.country === "Nigeria" && (
+                        <div className="mb-6">
+                          <label
+                            className="block mb-1.5 text-sm text-gray-900 font-semibold"
+                            htmlFor="state"
+                          >
+                            State
+                          </label>
+                          <select
+                            className="w-full py-3 px-4 text-sm text-gray-900 placeholder-gray-400 border border-gray-200 focus:border-purple-500 focus:outline-purple rounded-lg"
+                            name=""
+                            id="state"
+                            onChange={handleSelect}
+                            required
+                          >
+                            <option value="">
+                              {"<--"} Select {"-->"}
+                            </option>
+                            {nigerianStates.map((state, index) => {
+                              return (
+                                <option key={index} value={state}>
+                                  {state}
+                                </option>
+                              );
+                            })}
+                          </select>
+                        </div>
+                      )}
                       {selectedAccountType === "School" && (
                         <>
                           <div className="mb-6">

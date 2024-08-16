@@ -13,7 +13,7 @@ const VerifyEmailPage = () => {
     const verifyEmail = async () => {
       try {
         const response = await axios.get(
-          `https://email-delivery-api.onrender.com/verify/${token}`
+          `https://email-delivery-api.onrender.com/auth/verify/${token}`
         );
         if (response.status === 200) {
           setIsVerified(true);
@@ -25,6 +25,7 @@ const VerifyEmailPage = () => {
           setVerificationMessage("Invalid or expired verification link.");
         }
       } catch (error) {
+        console.error(error);
         setIsVerified(false);
         setVerificationMessage(
           "Something went wrong while trying to verify your email. Please try again later."
