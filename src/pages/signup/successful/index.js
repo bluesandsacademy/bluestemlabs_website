@@ -1,7 +1,7 @@
 import React from "react";
 import { Helmet, HelmetProvider } from "react-helmet-async";
 
-export default function SuccessPage() {
+export default function SuccessfulSignUp() {
   return (
     <React.Fragment>
       <HelmetProvider prioritizeSeoTags>
@@ -45,17 +45,17 @@ export default function SuccessPage() {
           <meta name="twitter:image" content="URL_to_your_image_here" />
 
           <title>
-            Successful Demo Request | Blue Sands STEM Labs - Transforming STEM
+            Successful SignUp | Blue Sands STEM Labs - Transforming STEM
             Education with VR
           </title>
         </Helmet>
       </HelmetProvider>
       {/* <Navbar /> */}
       <div className="flex items-center h-screen justify-center flex-col gap-y-3 my-10">
-        <h3 className="text-center text-blue-950 text-5xl">Thank You! 😊</h3>
-        <p className="text-3xl">
-          A Representative will reach out to you shortly
-        </p>
+        <h3 className="text-center text-blue-950 text-5xl">
+          Thank you for Signing Up 😊
+        </h3>
+        <p className="text-3xl">Please Verify Your Email Address via the link delivered to your inbox</p>
       </div>
       {/* <IndexSectionFooters7 /> */}
     </React.Fragment>
