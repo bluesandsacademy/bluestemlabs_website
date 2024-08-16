@@ -73,7 +73,7 @@ export default function SignUp() {
     e.preventDefault();
     try {
       await axios.post(
-        "https://email-delivery-api.onrender.com//auth/signup",
+        "https://email-delivery-api.onrender.com/auth/signup",
         formData
       );
       toast("Sign Up Successful");

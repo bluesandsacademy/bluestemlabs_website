@@ -13,7 +13,7 @@ import NewsletterModal from "../components/newsletter";
 import ForSchool from "../components/for-school";
 import VRSolution from "../components/for-school/vr-solution";
 import PricingSection from "../components/pricing";
-import FeatureStack from "../components/features/NewContent";
+import HowItWorks from "../components/features/NewContent";
 
 export default function Index() {
   return (
@@ -71,7 +71,7 @@ export default function Index() {
       <IndexSectionFeatures13 />
       <VRSolution />
       <IndexSectionStats11 />
-      {/* <FeatureStack /> */}
+      <HowItWorks />
       <PricingSection />
       {/* <IndexSectionInstagramPhotos12 /> */}
       <IndexSectionTeam10 />
