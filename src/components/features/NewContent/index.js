@@ -25,10 +25,10 @@ const HowItWorks = () => {
               className="bg-white rounded-lg shadow-md p-6 flex flex-col items-center text-center"
             >
               <div className="text-4xl mb-4">{step.icon}</div>
-              <h3 className="text-xl font-semibold text-[#1980E7]/70 mb-2">{`Step ${
+              <h3 className="text-3xl font-bold text-[#1980E7]/70 mb-2">{`Step ${
                 index + 1
               }`}</h3>
-              <p className="text-gray-600">{step.title}</p>
+              <p className="text-gray-600 text-md">{step.title}</p>
             </div>
           ))}
         </div>
