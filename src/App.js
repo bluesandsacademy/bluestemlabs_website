@@ -7,6 +7,7 @@ import SignUp from "./pages/signup/index.js";
 import RequestDemo from "./pages/request-demo/index.js";
 import SuccessPage from "./pages/thank-you/success.js";
 import ContactUs from "./pages/contact/index.jsx";
+import VerifyEmailPage from "./pages/verify-email-page";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
@@ -18,7 +19,9 @@ function App() {
         <Route path="/" element={<IndexPage />} />
         <Route path="/signup" element={<SignUp />} />
         <Route path="/request-demo" element={<RequestDemo />} />
+        {/* <Route path="/signup/successful" element={} /> */}
         <Route path="/thankyou/success" element={<SuccessPage />} />
+        <Route path="/account/verify/:token" element={<VerifyEmailPage />} />
         <Route path="/contact-us" element={<ContactUs />} />
       </Routes>
     </>

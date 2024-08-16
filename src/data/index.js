@@ -291,3 +291,17 @@ export const countries = [
   "Zambia",
   "Zimbabwe",
 ];
+
+export const howYouHeardAboutUsList = [
+  "Facebook",
+  "Instagram",
+  "YouTube",
+  "Twitter",
+  "LinkedIn",
+  "Web Search",
+  "Email",
+  "Events",
+  "News/Article/Blogs",
+  "Referred by a University or Professor",
+  "Referred by a Friend or Family Member",
+];

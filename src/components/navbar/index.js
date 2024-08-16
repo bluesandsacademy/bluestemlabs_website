@@ -202,7 +202,7 @@ export default function Navbar() {
             <div className="flex items-center">
               <a
                 className="relative group inline-block py-3 px-4 text-sm font-semibold text-[#1980E7] hover:text-white border border-gray-200 rounded-md overflow-hidden transition duration-300"
-                href="#"
+                href="/signup"
               >
                 <div className="absolute top-0 right-full w-full h-full bg-[#1980E7] transform group-hover:translate-x-full group-hover:scale-102 transition duration-500" />
                 <span className="relative">Sign Up</span>
