@@ -48,7 +48,7 @@ export default function IndexSectionHeaders6() {
               <div className="container w-full flex items-center justify-center mb-15 gap-x-5">
                 <a
                   className="relative group inline-block py-4 px-6 text-white font-semibold rounded-md bg-[#1980E7] overflow-hidden"
-                  href="#"
+                  href="#pricing"
                 >
                   <div className="absolute top-0 right-full w-full h-full bg-gray-900 transform group-hover:translate-x-full group-hover:scale-102 transition duration-500" />
                   <span className="relative">Get Pricing</span>
