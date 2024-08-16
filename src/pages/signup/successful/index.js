@@ -51,11 +51,11 @@ export default function SuccessfulSignUp() {
         </Helmet>
       </HelmetProvider>
       {/* <Navbar /> */}
-      <div className="flex items-center h-screen justify-center flex-col gap-y-3 my-10">
-        <h3 className="text-center text-blue-950 text-5xl">
-          Thank you for Signing Up 😊
-        </h3>
-        <p className="text-3xl">Please Verify Your Email Address via the link delivered to your inbox</p>
+      <div className="flex items-center text-center h-screen justify-center flex-col gap-y-3 my-10">
+        <h3 className=" text-blue-950 text-5xl">Thank you for Signing Up 😊</h3>
+        <p className="text-3xl">
+          Please Verify Your Email Address via the link delivered to your inbox
+        </p>
       </div>
       {/* <IndexSectionFooters7 /> */}
     </React.Fragment>
