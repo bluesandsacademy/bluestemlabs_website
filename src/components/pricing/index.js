@@ -24,7 +24,7 @@ const PricingSection = () => {
               everywhere!
             </p>
             <p className="text-4xl font-bold mb-2">
-              $0 <span className="text-xl">/mo</span>
+              ₦0 <span className="text-xl">/month</span>
             </p>
             <p className="mb-4">
               1 Month <br />
@@ -52,7 +52,7 @@ const PricingSection = () => {
               all the features & access you need
             </h3>
             <p className="text-4xl font-bold mb-2">
-              $20.99 <span className="text-xl">/4 months</span>
+              ₦35,000 <span className="text-xl">/month</span>
             </p>
             <p className="mb-4">
               4 Months Plan <br />
@@ -70,7 +70,6 @@ const PricingSection = () => {
             </ul>
           </div>
         </div>
-
       </section>
     </div>
   );
